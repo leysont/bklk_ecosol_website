@@ -14,10 +14,19 @@ li {
 header {
     background-color: #333;
     color: white;
-    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header, footer, article {
+    border-radius: 40px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 15px;
 }
 
 header nav ul {
@@ -37,37 +46,59 @@ header nav ul li a {
     text-decoration: none;
 }
 
-section.content {
-    padding: 20px;
-    margin: 20px auto ;
+article {
     background-color: #181A1B;
-    border-radius: 40px;
-    max-width: 800px; /* Setzen Sie hier die gewünschte maximale Breite ein */
+}
+
+article p {
+    margin-left: 10px;
+}
+
+section {
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    border: 2px solid #ffffff33;
+}
+
+section.datenmissbrauch {
+    background: rgba(0, 0, 0, .75) url('images/vault.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: 50% 80%;
+    position: relative;
+}
+
+section.datenverlust {
+    background: rgba(0, 0, 0, .6) url('images/server.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: 50% 10%;
+    position: relative;
 }
 
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
     bottom: 0;
+    
 }
 
 .infobox {
     border: 2px solid #3498db;
     margin-left: 0px;
-    margin-right: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    background-color: #1d2931;
-    border-radius: 10px;
+    margin-right: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-.infobox p {
-    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background-color: #1d293166;
+    border-radius: 10px;
 }
 
 .infobox ul {
@@ -85,7 +116,8 @@ footer {
     padding: 50px;
     background-image: url('images/orbit.jpg');
     background-size: cover;
-    background-position: 50% 30%;
+    background-position: 50% 40%;
+    /* background-position: 50% 30%; */
     color: white;
     border-radius: 20px;
 
