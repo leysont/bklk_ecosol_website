@@ -108,6 +108,22 @@ section.datenverlust:hover {
     background-position: 50% 10%;
 }
 
+section.datenschutz {
+    background: rgba(0, 0, 0, .8) url('images/files.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: 50% 40%;
+    position: relative;
+}
+
+
+section.datenschutz:hover {
+    background: rgba(0, 0, 0, .7) url('images/files.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: 50% 40%;
+}
+
 section.socialengineering {
     background: rgba(0, 0, 0, .8) url('images/training.jpg');
     background-blend-mode: darken;
