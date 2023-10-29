@@ -7,8 +7,8 @@ body {
 }
 
 li {
-    margin-left:0px;
-    margin-bottom:5px;
+    margin-left: 0px;
+    margin-bottom: 5px;
 }
 
 header, footer, article {
@@ -75,6 +75,101 @@ section {
     padding-bottom: 5px;
     margin-top: 20px;
     border: 2px solid #ffffff33;
+}
+
+.grafik_integrität {
+    background: rgba(30, 30, 30, .75);
+    background-blend-mode: darken;
+    position: relative;
+
+    border-radius: 20px;
+    border: 2px solid #7f4e02;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+
+    display: flex;
+
+}
+
+.material-symbols-outlined {
+    /* transform: scale(2); */
+    padding-left: 10px;
+    padding-top: 10px;
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+
+.material-symbols-outlined.md-48 {
+    font-size: 48px;
+}
+
+
+.explanation_box {
+    border-radius: 18px;
+    border: 2px solid rgb(var(--color));
+    height: fit-content;
+    display: flex;
+    padding-right: 20px;
+    margin-top: 20px;
+    background-color: rgba(var(--color), .4)
+}
+
+.explanation_box:hover {
+    background-color: rgba(var(--color), .5)
+}
+
+.icon_word_box {
+    background: rgba(30, 30, 30, .75);
+    background-blend-mode: darken;
+    position: relative;
+
+    border-radius: 20px;
+    /* border: 2px solid #7f4e02; */
+    --color: red;
+    border: 2px solid rgb(var(--color));
+    margin-top: 20px;
+}
+
+.icon_word_box_header {
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom: 2px solid rgba(255, 255, 255, .4);
+    height: fit-content;
+    display: flex;
+    padding-right: 20px;
+    background-color: rgba(var(--color), .4)
+}
+
+.icon_word_box:hover {
+    background: rgba(30, 30, 30, .9);
+}
+
+.icon_word_box:hover .icon_word_box_header {
+    background: rgba(var(--color), .43);
+}
+
+.body_icon {
+    font-family: 'Maven Pro', sans-serif;
+    color: white;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.body_icon2 {
+    font-family: 'Maven Pro', sans-serif;
+    color: white;
+
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+section.datenmissbrauch:hover {
+    background: rgba(30, 30, 30, .7);
+    background-blend-mode: darken;
 }
 
 section.datenmissbrauch {
@@ -159,7 +254,6 @@ footer {
     color: white;
     text-align: center;
     bottom: 0;
-    
 }
 
 .infobox {
